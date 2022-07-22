@@ -1,0 +1,38 @@
+/* Write your CSS here */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.main-container {
+  background-color: #1e293b;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+h1 {
+  color: #f0bb03;
+  font-family: Bree Serif;
+  margin: 15px;
+  font-size: 62px;
+}
+p {
+  color: #ffffff;
+  font-family: Bree Serif;
+  margin: 15px;
+  font-size: 32px;
+}
+button {
+  display: block;
+  margin: 15px;
+  outline: none;
+  cursor: pointer;
+  border-radius: 4px;
+  padding: 5px;
+  padding-left: 8px;
+  padding-right: 8px;
+  border: none;
+  font-family: Bree Serif;
+}
